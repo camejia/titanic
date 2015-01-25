@@ -3,7 +3,7 @@
 # Full guide available at http://trevorstephens.com/
 
 # Set working directory and import datafiles
-setwd("~/Kaggle/Titanic")
+setwd("~/GitHub/forks/trevorstephens/titanic")
 train <- read.csv("train.csv")
 test <- read.csv("test.csv")
 

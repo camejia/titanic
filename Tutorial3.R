@@ -3,14 +3,14 @@
 # Full guide available at http://trevorstephens.com/
 
 # Set working directory and import datafiles
-setwd("~/Kaggle/Titanic")
+setwd("~/GitHub/forks/trevorstephens/titanic")
 train <- read.csv("train.csv")
 test <- read.csv("test.csv")
 
 # Install and load required packages for fancy decision tree plotting
-install.packages('rattle')
-install.packages('rpart.plot')
-install.packages('RColorBrewer')
+# install.packages('rattle')
+# install.packages('rpart.plot')
+# install.packages('RColorBrewer')
 library(rpart)
 library(rattle)
 library(rpart.plot)

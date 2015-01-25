@@ -3,15 +3,15 @@
 # Full guide available at http://trevorstephens.com/
 
 # Set working directory and import datafiles
-setwd("~/Kaggle/Titanic")
+setwd("~/GitHub/forks/trevorstephens/titanic")
 train <- read.csv("train.csv")
 test <- read.csv("test.csv")
 
 # Install and load required packages for decision trees and forests
 library(rpart)
-install.packages('randomForest')
+# install.packages('randomForest')
 library(randomForest)
-install.packages('party')
+# install.packages('party')
 library(party)
 
 # Join together the test and train sets for easier feature engineering
